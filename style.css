@@ -1,0 +1,85 @@
+.main {
+    width: 100%;
+    display: flex;
+}
+.googlepage {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: lightgray;
+    height: 600px;
+}
+.googlepage img {
+    width: 60%;
+    float: left;
+    position: relative;
+    top: 100px;
+}
+.googlepage p {
+    position: relative;
+    top: 100px;
+}
+.googleform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(204, 154, 154);
+    width: 40%;
+}
+.googleform p {
+    color: black;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+.googleform h1 {
+    text-shadow:3px 3px 3px;
+    font-size: 50px;
+    line-height: 0px;
+}
+.googleform input {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.green {
+    background-color: rgb(86, 159, 86);
+}
+.yellow {
+    background-color: rgba(255, 255, 0, 0.721);
+}
+#submit {
+    margin: auto;
+    width: 160px;
+}
+#age {
+    width: 200px;
+    margin-left: 20px;
+}
+#mobile {
+    width: 250px;
+}
+#address {
+    width: 200px;
+    margin-left: 20px;
+}
+#name {
+    margin-left: 40px;
+    width: 160px;
+}
+@media only screen and (min-width:320px) and (max-width:800px) {
+    .main {
+        flex-direction: column;
+    }
+    .googlepage {
+        width: 100%;
+    }
+    .googleform {
+        width: 100%;
+    }
+}
